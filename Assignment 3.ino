@@ -7,6 +7,7 @@ In the serial monitor the user should be able to type one of two commands: �re
 For example, if the user types �read 3� then the contents of EEPROM address 3 should be printed to the serial monitor. 
 If the user types �write 3 10� then the value 10 should be written into address 3 of the EEPROM.
 */
+
 #include <EEPROM.h>
 void setup() 
 {
