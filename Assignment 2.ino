@@ -9,3 +9,5 @@ void loop() {
   int state = (sensorValue <= BRIGHTNESS_THRESHOLD) ? HIGH : LOW;
   digitalWrite(LED_PIN, state);
 }
+
+
